@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>FORM PEMESANAN</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>No Telp:</label>
+            <input type="text" name="No Telp" placeholder="No telp..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Pemesanan:</label>
+            <label><input type="radio" name="pemesanan" value="dine in" /> dine in</label>
+            <label><input type="radio" name="pemesanan" value="take away" /> take away</label>
+        </p>
+        <p>
+            <label>Pilih Paket:</label>
+            <label><input type="checkbox" name="Pilih Paket" value="Paket 1" /> Paket 1</label>
+            <label><input type="checkbox" name="Pilih Paket" value="Paket 2" /> Paket 2</label>
+            <label><input type="checkbox" name="Pilih Paket" value="Paket 3" /> Paket 3</label>
+            <label><input type="checkbox" name="Pilih Paket" value="Paket 4" /> Paket 4</label>
+        </p>
+        <p>
+            <label>Cabang:</label>
+            <select name="PIlih paket">
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bogor">Bogor</option>
+                <option value="Surabaya">Surabya</option>
+                <option value="Kuala Lumpur">Kuala Lumpur</option>
+            </select>
+        </p>
+        <p>
+            <label>Note:</label>
+            <textarea name="note"></textarea>
+        </p>
+    
+        <p>
+            <input type="submit" name="submit" value="Submit" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
